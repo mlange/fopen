@@ -1,0 +1,10 @@
+!include $(MOCADIR)\makefiles\Config.mk
+
+TARGET=main
+TARGETTYPE=exe
+
+OFILES=main.obj
+
+EXTRACFLAGS=-D_CRT_SECURE_NO_WARNINGS
+
+!include $(MOCADIR)\makefiles\ntstd.mk
